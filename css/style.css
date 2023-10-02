@@ -10011,3 +10011,44 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+    .about-us-box{
+      display: flex;
+      flex: 2;
+      flex-direction:column;
+    }
+
+    .card-container {
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+    }
+    
+    .my-card {
+      /* border: 1px solid black; */
+      background: white;
+      width: 400px;
+      height: 250px;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      padding: 1rem;
+      text-align: center;
+    }
+    .my-card .top {
+      font-size: 2rem;
+      color: green;
+    }
+    
+    /* Mobile */
+    @media (max-width: 600px) {
+      .card-container {
+        flex-direction: column;
+        align-items: center;
+      }}
+      
+      
